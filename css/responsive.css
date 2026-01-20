@@ -604,6 +604,9 @@ ul.inner-banner-cta.cta-new-btn{
 		padding-bottom: 20px;
 	}
 
+	.next-arrow ,.prev-arrow {
+		display: none !important;
+    }
 	.inner-div-about.inner-div-about2.row {
 		flex-direction: column-reverse;
 	}

@@ -297,7 +297,7 @@
     
     .header-btn a {
         border-radius: 5px;
-        background-color: #0398fc;
+        background-color: #0b296e ;
         padding: 7px 10px;
         /* display: inline-flex; */
         color: #fff;
@@ -355,7 +355,7 @@
     
     .inner-banner-cta li:nth-child(1) a {
         border-radius: 5px;
-        background: linear-gradient(242deg, #012e3b 0%, #0398fc 100%);
+        background: linear-gradient(90deg, #0b296e, #c91634);
         padding: 15px 15px;
         color: #fff;
         font-size: 15px;
@@ -365,7 +365,7 @@
     
     .inner-banner-cta li:nth-child(2) a {
         border-radius: 5px;
-        background: linear-gradient(242deg, #0398fc 0%,  #012e3b 100%);
+        background: linear-gradient(90deg, #0b296e, #c91634);
         padding: 15px 15px;
         color: #fff;
         font-size: 15px;
@@ -402,7 +402,7 @@
     
     .banner-form button {
         border-radius: 5px;
-        background-color: #0398fc;
+        background-color: #0b296e ;
         padding: 13px 14px;
         color: #fff;
         font-size: 14px;
@@ -858,7 +858,7 @@
     
     .footer-tel-btn {
         border-radius: 5px;
-        background-color: #0398fc;
+        background-color: #0b296e ;
         padding: 7px 20px;
         color: #fff;
         font-size: 14px;
@@ -1095,7 +1095,7 @@
     
     .hire-list li i {
         padding: 0 6px 0 0;
-        color: #0398fc;
+        color: #0b296e ;
     }
     
     .port-list ul li {
@@ -1160,7 +1160,7 @@
     }
     
     .news-head-2 p {
-        font-size: 14px;
+        font-size: 18px;
         line-height: 26px;
         color: #333333;
         padding: 15px 0;
@@ -1268,7 +1268,7 @@
     }
     .home-ghost-box-inner p {
         color: #333333;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 28px;
         padding: 25px 20px 0px;
         height: 145px;
@@ -1277,7 +1277,7 @@
     }
     .green-btn {
         border-radius: 5px;
-        background-color: #0398fc;
+        background-color: #0b296e ;
         padding: 7px 10px;
         color: #fff;
         font-size: 14px;
@@ -1643,7 +1643,7 @@
     }
     
     section.ficton-cta.bk-new-cta-sec ul.inner-banner-cta li:nth-child(1) a i, section.ficton-cta.bk-new-cta-sec ul.inner-banner-cta li:nth-child(2) a i {
-        background: #0398fc;
+        background: #0b296e ;
         color: #fff;
     }
     section.ficton-cta.bk-new-cta-sec {
@@ -1755,7 +1755,7 @@
         display: block;
     }
     .range-sec-design-serv-pg ul.inner-banner-cta li a i {
-        background: #0398fc;
+        background: #0b296e ;
         color: #fff;
     }
     
@@ -2118,7 +2118,7 @@
     .clintwrp .counterwrp ul li .mainwrp span {
         -webkit-text-fill-color: transparent;
         font-weight: 400;
-        background: linear-gradient(to right,#e99a28 0%,#e99a28 100%);
+        background: linear-gradient(90deg, #0b296e, #c91634);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -2188,7 +2188,7 @@
         position: relative;
         top: 4px;
         margin-right: 10px;
-        color: #0398fc;
+        color: #0b296e ;
     }
     
     .dtl-txt-iner-srv ul {
@@ -3162,7 +3162,7 @@
     .writers-tab ul li.active .writer-txt-tb, .writers-tab ul li:hover .writer-txt-tb {
         height: 150px;
         transition-duration: 1s;
-        background: -webkit-linear-gradient(0deg, rgb(37 160 140) 0, rgb(37 160 140) 100%);
+        background: linear-gradient(90deg, #0b296e, #c91634);
     }
     
     .writer-txt-tb {
@@ -3350,10 +3350,10 @@
     ul.new-dd-list li img {padding: 0 22px 0 0;vertical-align: middle; height: 30px;width: auto;object-fit: contain;}
     
     /*ul.new-dd-list::before {position: absolute;content: "";background: #111111;width: 2px;height: 100%;left: 0;right: 0;top: 0;bottom: 0;margin: auto;}*/
-    li.dd-link:hover a {color: #0398fc;}
+    li.dd-link:hover a {color: #0b296e ;}
     
     ul.new-dd-list li a:hover {
-        color: #0398fc !important;
+        color: #0b296e  !important;
     }
     ul.new-dd-list:before {
         content: '';
@@ -3381,14 +3381,14 @@
         font-size: 50px;
     }
     ul.new-dd-list li a:hover {
-        color: #0398fc;
+        color: #0b296e ;
     }
     .dd-link:hover .new-dd-box{
     
         transform: scale(1);
     }
     
-    li.dd-link:hover {background: transparent;color: #0398fc;}
+    li.dd-link:hover {background: transparent;color: #0b296e ;}
     
     li.dd-link {padding: 15px 10px 15px 10px !important;}
     li.dd-link.design-serv-nav-st li.dd-link.web-dev-nav {
@@ -3415,7 +3415,7 @@
         width: 50%;
     }
     .main-menu li a:hover {
-        color: #0398fc;
+        color: #0b296e ;
     }
     
     .design-serv-new-cta-sec .col-md-7.cta-mcol-st {
@@ -4127,7 +4127,7 @@
     }
     
     .extra-link-txt1 .inner-banner-cta li:nth-child(1) a i {
-        background: #0398fc;
+        background: #0b296e ;
         color: #fff;
     }
     
@@ -4515,6 +4515,7 @@
     .home-banner .inner-head p {
         text-align: center;
         width: 70%;
+        font-size: 18px;
         margin: auto;
     }
     
@@ -4563,7 +4564,7 @@
     
     .rating-img {
         border-radius: 50%;
-        background: linear-gradient(242deg, #012e3b 0%, #0398fc 100%);
+        background: linear-gradient(90deg, #0b296e, #c91634);
         width: 110px;
         height: 110px;
         display: flex;
@@ -4602,7 +4603,7 @@
         display: flex;
         align-items: center;
         padding: 10px 12px;
-        background: linear-gradient(242deg, #012e3b 0%, #0398fc 100%);
+        background: linear-gradient(90deg, #0b296e, #c91634);
     }
     
     .inner-banner-cta .tel-btn i {
@@ -4737,7 +4738,6 @@
     .portfolio-sec-new {
         padding: 50px 0;
         position: relative;
-        overflow: hidden;
     }
     
     .portfolio-sec-new .row {
@@ -4759,7 +4759,7 @@
     }
     
     .hd-txt p {
-        font-size: 14px;
+        font-size: 18px;
         line-height: 28px;
     }
     
@@ -4783,7 +4783,7 @@
     }
     .prev-arrow {
         position: absolute;
-        top: 35%;
+        top: 110%;
         bottom: 0;
         margin: auto;
         display: flex;
@@ -4795,7 +4795,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        left: -140px;
+        left: 0px;
         z-index: 1;
         transition: all .5s ease-in-out;
     }
@@ -4821,11 +4821,11 @@
     }
      .next-arrow {
         position: absolute;
-        top: 75%;
+        top: 110%;
         bottom: 0;
         margin: auto;
         display: flex;
-        background: #0398fc;
+        background: #0b296e ;
         width: 60px;
         height: 60px;
         color: #fff;
@@ -4833,7 +4833,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        left: -140px;
+        right: -100px;
         z-index: 1;
         transition: all .5s ease-in-out;
     }
@@ -4926,7 +4926,7 @@
     }
     
     .about-bx-txt p {
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 400;
         color: #333;
         line-height: 28px;
@@ -5086,7 +5086,7 @@
         font-size: 60px;
         font-weight: 700;
         border-radius: 70px;
-        background: linear-gradient(242deg, #004185 0%, #C90C3D 100%);
+        background: linear-gradient(90deg, #0b296e, #c91634);
         text-align: center;
         margin: 6px auto 0;
         padding: 2px 18px;
@@ -5225,7 +5225,7 @@
     }
     
     .hd-txt-inner h4 span {
-        color: #0398fc;
+        color: #0b296e ;
     }
     
     .hd-txt-inner p {
@@ -5371,7 +5371,7 @@
     }
     
     ul.inner-banner-cta.inner-banner-cta1 a i {
-        color: #0398fc !important;
+        color: #0b296e  !important;
         background: transparent !important;
     }
     
@@ -5396,7 +5396,7 @@
         padding: 70px 0;
     }
     .new-consultant-sec-logo .hd-txt span {
-        color: #0398fc;
+        color: #0b296e ;
     }
     
     .new-consultant-sec-logo {
@@ -5829,7 +5829,7 @@
     
     
     .social-icons a:hover {
-        background: #0398fc;
+        background: #0b296e ;
         color: #fff;
     }
     
@@ -5842,16 +5842,16 @@
     }
     
     ul.ftr-links li a:hover {
-        color: #0398fc;
+        color: #0b296e ;
     }
     
     .ftr-social-links li:hover i {
-        background: #0398fc;
+        background: #0b296e ;
         color: #fff !important;
     }
     
     ul.ftr-social li:hover a {
-        color: #0398fc;
+        color: #0b296e ;
     }
     
     
@@ -5897,7 +5897,7 @@
     
     
     .extra-link-sec .col-sm-6:nth-child(2) .extra-link-txt i {
-        color: #0398fc;
+        color: #0b296e ;
     }
     
     
@@ -5961,7 +5961,7 @@ ul.location-dd{
 }
 
 .process-box:hover {
-  border-color: #0398fc;
+  border-color: #0b296e ;
   box-shadow: 0 4px 20px rgba(24,190,188,0.15);
 }
 
@@ -5969,7 +5969,7 @@ ul.location-dd{
   width: 65px;
   height: 65px;
   background: rgba(24,190,188,0.1);
-  color: #0398fc;
+  color: #0b296e ;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -5980,7 +5980,7 @@ ul.location-dd{
 }
 
 .process-box:hover .process-icon {
-  background: #0398fc;
+  background: #0b296e ;
   color: #fff;
   transform: scale(1.1);
 }
@@ -5993,7 +5993,7 @@ ul.location-dd{
 }
 
 .process-box p {
-  font-size: 0.95rem;
+  font-size: 18px;
   color: #555;
   line-height: 1.6;
   margin: 0;
@@ -6178,12 +6178,14 @@ ul.location-dd{
 .faq-question {
   width: 100%;
   background: none;
+  background-color: #c90f2e;
   border: none;
   text-align: left;
   padding: 18px 15px;
   font-size: 18px;
   font-weight: 600;
-  color: #012e3b;
+  margin-top: 5px;
+  color: #fff;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -6295,7 +6297,7 @@ ul.location-dd{
 /* SUBMIT BUTTON */
 .form-button {
   padding: 14px 20px;
-  background: linear-gradient(90deg, #0398fc, #012e3b);
+  background: linear-gradient(90deg, #0b296e, #c91634);
   color: #ffffff;
   font-weight: 700;
   border: none;
