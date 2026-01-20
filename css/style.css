@@ -2,7 +2,7 @@
     
     /*Main Css */
     ::selection {
-        background: rgb(226, 143, 38);
+        background: #c90f2e;
         color: #fff;
         text-shadow: none;
     }
@@ -23,7 +23,7 @@
     
     ::-webkit-scrollbar-thumb:vertical {
         border-radius: 10px;
-        background-color: rgb(226, 143, 38);
+        background-color: #c90f2e;
     }
     
     [class^="box-"] {
@@ -155,7 +155,7 @@
     }
     
     .slick-dots li.slick-active button {
-        background: #25a08c;
+        background: #c90f2e;
         width: 18px;
         height: 18px;
     }
