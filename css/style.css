@@ -4680,10 +4680,13 @@
         font-size: 46px;
         color: #fff;
         font-weight: bold;
+        margin-bottom: 40px;
         line-height: 58px;
         text-transform: capitalize;
     }
-    
+    .cta-txt p{
+        margin-bottom:40px;
+    }
     .cta-new-btn {
         margin-bottom: 0;
     }
@@ -4775,9 +4778,12 @@
         font-size: 18px;
         line-height: 28px;
     }
-    
+    #blue-bg h2{
+        padding: 0;
+    }
     #blue-bg h2,#blue-bg p{
         color: #fff;
+        margin-bottom: 30px;
     }
     .portfolio-sec-new .inner-banner-cta {
         justify-content: flex-start;
@@ -6516,6 +6522,7 @@ ul.location-dd{
   font-size: 40px;
   line-height: 1.2;
   margin: 0 0 20px 0;
+  width: 100%;
 }
 
 .designers-heading .designers-span {
@@ -6537,22 +6544,27 @@ ul.location-dd{
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-start;
 }
 
 /* Buttons */
 .designers-button {
   font-size: 18px;
-  color: #0b296e;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
+  background:linear-gradient(to left,#00177c,#c90f2e) ;
+  color: white;
+  border-radius: 10px;
   gap: 8px;
+  padding: 10px 20px;
   transition: color 0.3s;
 }
 
 .designers-button i {
   font-size: 30px;
-  color: #c90f2e;
+  color: #fff;
 }
 
 .designers-button:hover {
@@ -6604,8 +6616,9 @@ ul.location-dd{
 /* Container for buttons */
 .process-cta-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 20px;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -6675,6 +6688,11 @@ ul.location-dd{
 .process-card {
   background: white;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   border-radius: 10px;
   text-align: center;
 }
@@ -6682,13 +6700,11 @@ ul.location-dd{
 .process-card-icon {
   font-size: 30px;
   color: #0b296e;
-  margin-bottom: 15px;
 }
 
 .process-card-title {
   font-size: 20px;
   color: #0b296e;
-  margin-bottom: 10px;
 }
 
 .process-card-text {
