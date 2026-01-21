@@ -4766,20 +4766,23 @@
     }
     
     .portfolio-sec-new h2 {
-        color: #fff;
+        color: #00101f;
         padding-bottom: 10px;
     }
     
     .hd-txt p {
-        color: white;
+        color: black;
         font-size: 18px;
         line-height: 28px;
     }
     
+    #blue-bg h2,#blue-bg p{
+        color: #fff;
+    }
     .portfolio-sec-new .inner-banner-cta {
         justify-content: flex-start;
     }
-    .portfolio-sec-new .inner-banner-cta li a{
+    #blue-bg .inner-banner-cta li a{
         background: white !important;
         color: #00177c;
     }
@@ -5947,7 +5950,7 @@ ul.location-dd{
 /* Creative Section */
 .process-main-container {
   width: 100%;
-  padding: 60px 15px;
+  padding: 60px 15px !important;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6041,7 +6044,7 @@ ul.location-dd{
     font-size: 1.4rem;
   }
   .process-main-container {
-    padding: 20px 15px;
+    padding: 20px 15px !important;
   }
 }
 
@@ -6386,6 +6389,7 @@ ul.location-dd{
   max-width: 1200px;
   margin: auto;
   display: flex;
+  padding: 0 10px;
   gap: 60px;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -6492,19 +6496,24 @@ ul.location-dd{
   margin: 0 auto;
   flex-wrap: wrap;
   gap: 40px;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
 }
 
 /* Left content */
 .designers-left {
-  flex: 1 1 500px;
+    height: fit-content;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Heading and span */
 .designers-heading {
   color: #0b296e;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 1.2;
   margin: 0 0 20px 0;
 }
@@ -6552,8 +6561,11 @@ ul.location-dd{
 
 /* Right image */
 .designers-right {
-  flex: 1 1 500px;
-  text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 45%;
 }
 
 .designers-image {
@@ -6567,7 +6579,7 @@ ul.location-dd{
 /* Responsive */
 @media (max-width: 768px) {
   .designers-heading {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .designers-container {
@@ -6576,7 +6588,7 @@ ul.location-dd{
   }
 
   .designers-left, .designers-right {
-    flex: 1 1 100%;
+    width: 100%;
   }
 
   .designers-buttons {
@@ -6640,7 +6652,7 @@ ul.location-dd{
 
 .process-why-section {
   background: #f1f4f8; /* light steel gray */
-  padding: 60px 20px;
+  padding: 60px 20px !important;
 }
 
 /* Flex container */
