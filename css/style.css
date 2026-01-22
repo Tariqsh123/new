@@ -6142,8 +6142,9 @@ ul.location-dd{
 }
 
 .whats-feature h3 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
+  line-height: normal;
   color: #ffffff;
   margin-bottom: 6px;
 }
@@ -6249,6 +6250,7 @@ ul.location-dd{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  line-height: normal;
 }
 
 .faq-icon {
