@@ -6720,7 +6720,7 @@ ul.location-dd{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
   border-radius: 10px;
   text-align: center;
 }
