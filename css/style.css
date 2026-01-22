@@ -4762,7 +4762,10 @@
     section.portfolio-sec-new.testi-new-sec .row{
      align-items: center;   
     }
-    
+    section.portfolio-sec-new.testi-new-sec .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }   
     .hd-txt h2 {
         font-size: 45px;
         font-weight: 700;
@@ -4947,7 +4950,7 @@
     }
     
     .about-bx-txt h3 {
-        font-size: 36px;
+        font-size: 40px;
         font-weight: 900 !important;
         color: #fff;
         line-height: 45px;
@@ -5980,6 +5983,8 @@ ul.location-dd{
   padding: 60px 15px !important;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
   align-items: center;
   gap: 45px;
 }
@@ -6142,7 +6147,7 @@ ul.location-dd{
 }
 
 .whats-feature h3 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   line-height: normal;
   color: #ffffff;
@@ -6150,7 +6155,7 @@ ul.location-dd{
 }
 
 .whats-feature p {
-  font-size: 16px;
+  font-size: 18px;
   color: rgba(255,255,255,0.85);
   line-height: 1.8;
   max-width: 520px;
@@ -6166,11 +6171,12 @@ ul.location-dd{
   font-size: 22px;
   font-weight: 700;
   color: #ffffff;
+  line-height: normal !important;
   margin-bottom: 10px;
 }
 
 .whats-right p {
-  font-size: 16px;
+  font-size: 18px;
   color: rgba(255,255,255,0.85);
   line-height: 1.8;
   margin-bottom: 32px;
@@ -6540,7 +6546,7 @@ ul.location-dd{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 1150px;
   margin: 0 auto;
   flex-wrap: wrap;
   gap: 40px;
@@ -6561,7 +6567,7 @@ ul.location-dd{
 /* Heading and span */
 .designers-heading {
   color: #0b296e;
-  font-size: 40px;
+  font-size: 50px;
   line-height: 1.2;
   margin: 0 0 20px 0;
   width: 100%;
@@ -6633,7 +6639,7 @@ ul.location-dd{
 /* Responsive */
 @media (max-width: 768px) {
   .designers-heading {
-    font-size: 25px;
+    font-size: 35px;
   }
 
   .designers-container {
@@ -6745,13 +6751,14 @@ ul.location-dd{
 }
 
 .process-card-title {
-  font-size: 20px;
+  font-size: 22px;
   color: #0b296e;
 }
 
 .process-card-text {
-  font-size: 16px;
+  font-size: 18px;
   color: #333;
+  line-height: normal;
 }
 
 /* Right content */
@@ -6766,7 +6773,7 @@ ul.location-dd{
 }
 
 .process-paragraph {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   margin-bottom: 20px;
 }
@@ -6999,7 +7006,10 @@ h3,h4,h5,h6{
   }
 
   .success-form-heading {
-    font-size: 28px;
+    font-size: 35px;
     text-align: center;
   }
+}
+h1, h2, h3, h4, h5, h6{
+    line-height: normal !important;
 }
