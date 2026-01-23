@@ -6010,6 +6010,7 @@ ul.location-dd{
   padding: 60px 15px !important;
   display: flex;
   align-items: center;
+  justify-content: center;
   height: fit-content;
 }
 .process-main-inner-container{
@@ -6927,7 +6928,7 @@ ul.location-dd{
 
 /* Logo */
 .newer-nav-logo img { 
-    height: 70px; 
+    height: 90px; 
 }
 
 /* Hamburger */
@@ -7239,6 +7240,12 @@ h1, h2, h3, h4, h5, h6{
   display: flex;
   align-items: flex-start;
   gap: 20px;
+  justify-content: center;
+  background: rgb(242, 244, 245,0.2);
+  border-radius: 10px;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
   width: calc(33.333% - 27px);
 }
 
@@ -7247,7 +7254,7 @@ h1, h2, h3, h4, h5, h6{
   flex-shrink: 0;
   width: 60px;
   height: 60px;
-  background: rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.3);
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -7259,6 +7266,13 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* TEXT */
+.about-page-all-including-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
 .about-page-all-including-text h3 {
   font-size: 22px;
   margin-bottom: 10px;
@@ -7432,5 +7446,13 @@ section.get-started-page-form-main > * {
 .terms-main-container p{
     font-size: small !important;
     text-align: left !important;
+}   
+}
+.col-md-2 .ftr-head-1 {
+    margin-top: 50px;
+}
+@media(max-width:600px){
+ .col-md-2 .ftr-head-1 {
+    margin-top: 0px;
 }   
 }
