@@ -949,6 +949,7 @@
         padding: 0 0 35px 0;
         margin-bottom: 25px;
         border-bottom: 1px solid #537f71;
+        gap: 30px 0px;
     }
     
     /*Home-banner*/
@@ -7375,34 +7376,6 @@ h1, h2, h3, h4, h5, h6{
 .contact-us-cta{
     background: #00177c;
 }
-section.get-started-page-form-main {
-    position: relative;
-    padding-top: 180px !important;
-    background: url(https://w0.peakpx.com/wallpaper/972/48/HD-wallpaper-stack-of-books-blue-background-education-concepts-books-library-school-learning-concepts.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    overflow: hidden;
-}
-section.get-started-page-form-main::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.75); 
-    z-index: 1;
-}
-section.get-started-page-form-main > * {
-    position: relative;
-    z-index: 1;
-}
-
-.success-form-wrapper{
-    background-color: white;
-}
-.get-started-page-form-left{
-    display: none;
-}
 
 /* Terms */
 .terms-main-container{
@@ -7455,4 +7428,123 @@ section.get-started-page-form-main > * {
  .col-md-2 .ftr-head-1 {
     margin-top: 0px;
 }   
+}
+
+
+/* Get started */
+
+section.get-started-page-form-main {
+    position: relative;
+    padding: 60px 20px !important;
+    padding-top: 180px !important;
+    overflow: hidden;
+}
+.get-started-page-form-main .container .row{
+    gap: 0;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get-started-page-form{
+    box-shadow: none;
+}
+.get-started-page-form-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.submission-title {
+    color: #c90f2e !important;
+    font-size: 25px !important;
+    text-align: left !important;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: "Roboto", sans-serif !important;
+
+}
+
+.submission-text {
+        font-family: 'Poppins', sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: left;
+    line-height: normal !important;
+    font-size: 15px !important;
+}
+
+.submission-list {
+    text-align: left;
+    font-size: 15px !important ;display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    gap: 10px;
+    flex-direction: column;
+}
+.submission-list li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+.submission-list li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #c90f2e;
+    font-size: 18px;
+    line-height: 1;
+}
+
+
+.recent-release-title {
+    font-size: 25px !important;
+    width: 100%;
+    text-align: left;
+    font-family: "Roboto", sans-serif !important;
+
+    color: #00177c !important;
+}
+
+.recent-release-images {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recent-release-images img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.recent-release-images img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+@media(max-width:600px){
+    .submission-title {
+    font-size: 20px !important;
+    text-align: center !important;
+}
+.recent-release-title{
+    font-size: 20px !important;
+}
+.recent-release-images{
+    padding: 10px 0;
+}
 }
