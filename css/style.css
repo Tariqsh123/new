@@ -700,8 +700,15 @@
     /**/
     
     /*testi-sec*/
-    #testi-left-heading{
+    #testi-left-heading2{
          background: linear-gradient(90deg, #00177c, #c90f2e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+    }
+    .portfolio-sec-new #testi-left-heading{
+         background: linear-gradient(90deg, #fff, #fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -7752,3 +7759,4 @@ font-family: 'Poppins', sans-serif;
     font-size: small !important;
   }
 }
+
