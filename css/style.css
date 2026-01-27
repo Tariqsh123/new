@@ -6006,7 +6006,11 @@ ul.location-dd{
 
 /* Creative Section */
 .process-main-container {
-  background-color: #e9e9e9;
+  background: url(../images/steps-bg.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
   width: 100%;
   padding: 60px 15px !important;
   display: flex;
