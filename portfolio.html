@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Testimonials - British Book Publishers</title>
+    <title>Privacy Policy - British Book Publishers</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     
@@ -172,357 +172,235 @@ newerNavDropdowns.forEach(drop=>{
 
 
 
-<section class="inner-banner home-banner" style="background: url('images/banner.jpg');">
-  <video width="100%" autoplay="" muted="" loop="" id="myVideo">
-    <source src="media/banner-video-new.mp4" type="video/mp4">
-  </video>
-  <div class="container">
-    <span class="phone-tel-img">
-      <a href="#"><img loading="lazy" src="assets/images/phone-icon.png"></a>
-    </span>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="inner-head">
-          <h1>Author's Reviews about  <span>British Book Publishers</span></h1>
-          <p>We have served 80K+ authors so far with our prestigious services. Check out what they have to say about us!</p>
-          <ul class="inner-banner-cta">
-            <li><a href="contact-us.html" onclick="">Contact Us <i class="fa fa-commenting" aria-hidden="true"></i>
-            </a></li>
-            <li><a href="get-started.html" class="popup-btn">Request a Quote <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            </a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-sm-12 bnr-cl-logo">
-            
 
-<div class="brandlogo-slider">
-               <div><img src="images/banner-brands-logo-1.png"></div>
-               <div><img src="images/banner-brands-logo-2.png"></div>
-               <div><img src="images/banner-brands-logo-3.png"></div>
-               <div><img src="images/banner-brands-logo-4.png"></div>
-               <div><img src="images/banner-brands-logo-5.png"></div>
-               <div><img src="images/banner-brands-logo-6.png"></div>
-               <div><img src="images/banner-brands-logo-1.png"></div>
-               <div><img src="images/banner-brands-logo-2.png"></div>
-               <div><img src="images/banner-brands-logo-3.png"></div>
-               <div><img src="images/banner-brands-logo-4.png"></div>
-               <div><img src="images/banner-brands-logo-5.png"></div>
-               <div><img src="images/banner-brands-logo-6.png"></div>
-            </div>
-         </div>  
+
+<style>
+    .portfolio-header-section{
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        
+        padding: 40px 20px;
+    }
+
+    .portfolio-header-section h1{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 15px;
+        font-weight: 900;
+        background: linear-gradient(90deg, #00177c, #c90f2e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    }
+
+    .portfolio-header-section p{
+        text-align: center;
+        max-width: 700px;
+        margin: 0 auto 40px;
+        line-height: 1.6;
+        color: #555;
+    }
+
+    .portfolio-header-gallery{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .portfolio-header-gallery img{
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        transition: transform 0.3s;
+    }
+
+    .portfolio-header-gallery img:hover{
+        transform: scale(1.03);
+    }
+
+    /* Mobile */
+    @media (max-width: 600px){
+        .portfolio-header-gallery{
+            grid-template-columns: 1fr;
+        }
+        .portfolio-header-gallery img {
+    width: 100%;
+    height: 280px;}
+
+        .portfolio-header-section h1{
+            font-size: 35px;
+        }
+    }
+
+.gallary-main-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+
+.gallary-item{
+    position: relative;
+    cursor: pointer;
+}
+
+.gallary-item img{
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+/* Hover Overlay */
+.gallary-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.gallary-item:hover .gallary-overlay{
+    opacity: 1;
+}
+
+/* Lightbox */
+.gallary-lightbox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 99900;
+}
+
+.gallary-lightbox img{
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.gallary-close{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+</style>
+<section class="portfolio-header-section" id="portfolio-header-main" style="margin-top: 120px;">
+    <h1>Book Cover Designers UK</h1>
+    <p>
+        Our professional book cover designers in the UK create visually stunning
+        and market-ready covers that capture attention and tell your story at first glance.
+    </p>
+
+    <div class="portfolio-header-gallery">
+        <img src="https://tariqsh123.github.io/wright-book-associates/images/portfolio-gallery-img-1.jpg" alt="">
+        <img src="https://tariqsh123.github.io/wright-book-associates/images/portfolio-gallery-img-2.jpg" alt="">
+        <img src="https://tariqsh123.github.io/wright-book-associates/images/portfolio-gallery-img-3.jpg" alt="">
+        <img src="https://tariqsh123.github.io/wright-book-associates/images/portfolio-gallery-img-4.jpg" alt="">
+        <img src="https://tariqsh123.github.io/wright-book-associates/images/portfolio-gallery-img-5.jpg" alt="">
+        <img src="https://tariqsh123.github.io/wright-book-associates/images/portfolio-gallery-img-6.jpg" alt="">
     </div>
-  </div>
 </section>
-<section class="rating-sec">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 p0">
-        <div class="rating-list">
-          <ul>
-            <li>
-              <div class="rating-box">
-                <div class="rating-img">
-                  <img src="images/rating-icon-1.png">
-                </div>
-                <h2><span class="count">3000</span>+</h2>
-                <h4>Projects Completed</h4>
-              </div>
-            </li>
-            <li>
-              <div class="rating-box">
-                <div class="rating-img">
-                  <img src="images/rating-icon-2.png">
-                </div>
-                <h2><span class="count">100</span>+</h2>
-                <h4>Awards Won</h4>
-              </div>
-            </li>
-            <li>
-              <div class="rating-box">
-                <div class="rating-img">
-                  <img src="images/rating-icon-3.png">
-                </div>
-                <h2><span class="count">10000</span>+</h2>
-                <h4>Hours Work</h4>
-              </div>
-            </li>
-            <li>
-              <div class="rating-box">
-                <div class="rating-img">
-                  <img src="images/rating-icon-4.png">
-                </div>
-                <h2><span class="count">3000</span>+</h2>
-                <h4>Satisfied Clients</h4>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<div class="col-sm-12"></div>
 
-<div class="testimonials-main-container">
-    <h2>Customers Have To Say</h2>
-    <div class="testimonials-card-main-container">
-      <!-- Testimonial 1 -->
-<div class="testi-box">
-    <h3>Scottie <span>Wallen</span></h3>
-    <p>“After completing my book, I decided to hire someone who could edit it as I was only the writer and didn't have the expertise to edit it myself. I approached Ghost Writers Hub and hired them for this job. They are the masters of their craft. I am delighted with their work!”</p>
-    <div class="testi-flg-bar">
-        <img src="images/uk-flag.png" alt="">
-        <span>United Kingdom</span>
+<div class="gallary-main-container">
+
+    <div class="gallary-item">
+        <img src="https://tariqsh123.github.io/wright-book-associates/images/slider-img1.jpg" alt="">
+        <div class="gallary-overlay">+</div>
     </div>
-    <div class="testi-star-new">
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
+
+    <div class="gallary-item">
+        <img src="https://tariqsh123.github.io/wright-book-associates/images/slider-img2.jpg" alt="">
+        <div class="gallary-overlay">+</div>
     </div>
+
+    <div class="gallary-item">
+        <img src="https://tariqsh123.github.io/wright-book-associates/images/slider-img3.jpg" alt="">
+        <div class="gallary-overlay">+</div>
+    </div>
+
+    <div class="gallary-item">
+        <img src="https://tariqsh123.github.io/wright-book-associates/images/slider-img4.jpg" alt="">
+        <div class="gallary-overlay">+</div>
+    </div>
+
+    <div class="gallary-item">
+        <img src="https://tariqsh123.github.io/wright-book-associates/images/slider-img5.jpg" alt="">
+        <div class="gallary-overlay">+</div>
+    </div>
+
+    <div class="gallary-item">
+        <img src="https://tariqsh123.github.io/wright-book-associates/images/slider-img6.jpg" alt="">
+        <div class="gallary-overlay">+</div>
+    </div>
+
+    <div class="gallary-item">
+        <img src="https://tariqsh123.github.io/wright-book-associates/images/slider-img7.jpg" alt="">
+        <div class="gallary-overlay">+</div>
+    </div>
+
 </div>
 
-<!-- Testimonial 2 -->
-<div class="testi-box">
-    <h3>Emily <span>Thompson</span></h3>
-    <p>“Working with Ghost Writers Hub was a fantastic experience. They understood my vision perfectly and helped polish my manuscript to a professional standard. I couldn’t be happier with the results!”</p>
-    <div class="testi-flg-bar">
-        <img src="images/uk-flag.png" alt="">
-        <span>United Kingdom</span>
-    </div>
-    <div class="testi-star-new">
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-    </div>
+<!-- Lightbox -->
+<div class="gallary-lightbox" id="gallaryLightbox">
+    <span class="gallary-close">&times;</span>
+    <img id="gallaryLightboxImg" src="">
 </div>
+<script>
+    const galleryItems = document.querySelectorAll(".gallary-item");
+    const lightbox = document.getElementById("gallaryLightbox");
+    const lightboxImg = document.getElementById("gallaryLightboxImg");
+    const closeBtn = document.querySelector(".gallary-close");
 
-<!-- Testimonial 3 -->
-<div class="testi-box">
-    <h3>James <span>Harrison</span></h3>
-    <p>“I was amazed by the professionalism and dedication of Ghost Writers Hub. They took my rough draft and turned it into a book I am proud to share. Highly recommended for anyone looking for top-notch editing services!”</p>
-    <div class="testi-flg-bar">
-        <img src="images/uk-flag.png" alt="">
-        <span>United Kingdom</span>
-    </div>
-    <div class="testi-star-new">
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-    </div>
-</div>
+    galleryItems.forEach(item => {
+        item.addEventListener("click", function(){
+            const img = this.querySelector("img");
+            lightbox.style.display = "flex";
+            lightboxImg.src = img.src;
+        });
+    });
 
-<!-- Testimonial 4 -->
-<div class="testi-box">
-    <h3>Olivia <span>Watson</span></h3>
-    <p>“Ghost Writers Hub exceeded my expectations. Their attention to detail and creative input helped me craft a book that truly stands out. I felt supported every step of the way.”</p>
-    <div class="testi-flg-bar">
-        <img src="images/uk-flag.png" alt="">
-        <span>United Kingdom</span>
-    </div>
-    <div class="testi-star-new">
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-    </div>
-</div>
+    closeBtn.addEventListener("click", function(){
+        lightbox.style.display = "none";
+    });
 
-<!-- Testimonial 5 -->
-<div class="testi-box">
-    <h3>Daniel <span>Evans</span></h3>
-    <p>“From start to finish, my experience with Ghost Writers Hub was seamless. Their team is talented, professional, and truly cares about delivering quality work. My book is now ready for publication!”</p>
-    <div class="testi-flg-bar">
-        <img src="images/uk-flag.png" alt="">
-        <span>United Kingdom</span>
-    </div>
-    <div class="testi-star-new">
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-        <i class="fa fa-star" aria-hidden="true"></i>
-    </div>
-</div>
+    lightbox.addEventListener("click", function(e){
+        if(e.target === lightbox){
+            lightbox.style.display = "none";
+        }
+    });
+</script>
 
-      <!-- 1 -->
-         <div class="testi-box">
-            <h3>Scottie <span>Wallen</span></h3>
-            <p>“After completing my book, I decided to hire someone who could edit it as I was only the writer and didn't have the expertise to edit it myself. I approached Ghost Writers Hub and hired them for this job. They are the masters of their craft. I am delighted with their work!”</p>
-            <div class="testi-flg-bar">
-             <img src="images/italy-flag.png" alt="">
-             <span>Italy</span>
-            </div>
-            <div class="testi-star-new">
-               <i class="fa fa-star" aria-hidden="true"></i>
-               <i class="fa fa-star" aria-hidden="true"></i>
-               <i class="fa fa-star" aria-hidden="true"></i>
-               <i class="fa fa-star" aria-hidden="true"></i>
-               <i class="fa fa-star" aria-hidden="true"></i>
-            </div>
-         </div>
-         <!-- end -->
-          <!-- 2 -->
-           <div class="testi-box">
-               <h3>Charles <span>Phillips</span></h3>
-               <p>“When it comes to revealing the storyline of a novel, an author's writing style is quite essential. This strategy is well-understood by the authors on Ghost Writers Hub. I'm having a good time reading the manuscript, and it's fascinating. ” </p>
-               <div class="testi-flg-bar">
-                <img src="images/usa-flag.png" alt="">
-                <span>USA</span>
-               </div>
-               <div class="testi-star-new">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-               </div>
-            </div>
-            <!-- end -->
-            <!-- 3 -->
-             <div class="testi-box">
-                <h3>Edith <span>Wheeler</span></h3>
-                <p>“I wish I could have hired them last year. Their team created a stunning book video trailer, and they published the book on Amazon. I am glad to see the excellent results. Over 1500 copies sold out on Amazon in a month. I will hire them to write my next book for sure—10 out of 10. ”</p>
-                <div class="testi-flg-bar">
-                 <img src="images/australia-flag.png" alt="">
-                 <span>Australia</span>
-                </div>
-                <div class="testi-star-new">
-                   <i class="fa fa-star" aria-hidden="true"></i>
-                   <i class="fa fa-star" aria-hidden="true"></i>
-                   <i class="fa fa-star" aria-hidden="true"></i>
-                   <i class="fa fa-star" aria-hidden="true"></i>
-                   <i class="fa fa-star" aria-hidden="true"></i>
-                </div>
-             </div>
-             <!-- end -->
-             <!-- 4 -->
-              <div class="testi-box">
-                <h3>Paul <span>Bashir</span></h3>
-                <p>“Thank You to the entire team of Ghost Writers Hub for producing my novella. I am outright in love with it.”</p>
-                <div class="testi-flg-bar">
-                 <img src="images/netherland-flag.png" alt="">
-                 <span>Netherlands</span>
-                </div>
-                <div class="testi-star-new">
-                   <i class="fa fa-star" aria-hidden="true"></i>
-                   <i class="fa fa-star" aria-hidden="true"></i>
-                   <i class="fa fa-star" aria-hidden="true"></i>
-                   <i class="fa fa-star" aria-hidden="true"></i>
-                   <i class="fa fa-star" aria-hidden="true"></i>
-                </div>
-             </div>
-             <!-- end -->
-              <!-- 5 -->
-               <div class="testi-box">
-                  <h3>Wendy <span>Sadler</span></h3>
-                  <p>“I wanted to get someone who could edit my books on short notice, but most of them were charging a lot of money which I couldn't afford. I found Ghost Writers Hub, and I instantly hired them because of their unique and attractive packages. ” </p>
-                  <div class="testi-flg-bar">
-                   <img src="images/ireland-flag.png" alt="">
-                   <span>Ireland</span>
-                  </div>
-                  <div class="testi-star-new">
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                  </div>
-               </div>
-               <!-- end -->
-            <!-- 6 -->
-             <div class="testi-box">
-                <h3>Nathan <span>Clements</span></h3>
-                <p>“One of the specialists that can make your ideas come true. The best part of their services is the easy transfer of rights. Thanks for the overall benefits. Especially, thanks to the writers for providing such a great piece of art. ” </p>
-                <div class="testi-flg-bar">
-                 <img src="images/scotland-flag.png" alt="">
-                 <span> Scotland</span>
-                </div>
-                <div class="testi-star-new">
-                   <i class="fa fa-star" aria-hidden="true"></i>
-                   <i class="fa fa-star" aria-hidden="true"></i>
-                   <i class="fa fa-star" aria-hidden="true"></i>
-                   <i class="fa fa-star" aria-hidden="true"></i>
-                   <i class="fa fa-star" aria-hidden="true"></i>
-                </div>
-             </div>
-             <!-- end -->
-            <!-- 7 -->
-             <div class="testi-box">
-               <h3>Dale <span>Casas</span></h3>
-               <p>“I signed up with them and within a week. I was impressed with their past work done for the clients. Their team edited my first book and this time they have ghostwritten a book on my behalf. I have read the whole draft. It is flawless. Good job Ghost Writers Hub! ” </p>
-               <div class="testi-flg-bar">
-                <img src="images/germany-flag.png" alt="">
-                <span>Germany</span>
-               </div>
-               <div class="testi-star-new">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-               </div>
-            </div>
-            <!-- end -->
-            <!-- 8 -->
-             <div class="testi-box">
-                   <h3>Neville <span>Swaby</span></h3>
-                   <p>“I have been working with Ghost Writer publishing since October 2021 with Jonah, However since February, 2022, Adam was assigned to take over my project and i am very satisfied with Adam professionalism, routine follow up calls and texts and recommendation to make sure I understand where my projects are and to ensure my needs are covered.”</p>
-                   <div class="testi-flg-bar">
-                    <img src="images/turkey-flag.png" alt="">
-                    <span>Turkey</span>
-               </div>
-                <div class="testi-star-new">
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                      <i class="fa fa-star" aria-hidden="true"></i>
-               </div>
-            </div>
-            <!-- end -->
-             <!-- 9 -->
-              <div class="testi-box">
-               <h3>Rosalia <span>Haas</span></h3>
-               <p>“I will give 5 stars for their customer service. I had some issues in the last two chapters and their manager kept me in the loop all the time to get the finest content that I wanted. It is a great company to work with. I will hire you people in the future too. Hire them! ”</p>
-               <div class="testi-flg-bar">
-                <img src="images/italy-flag.png" alt="">
-                <span>Italy</span>
-               </div>
-               <div class="testi-star-new">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-               </div>
-            </div>
-            <!-- 10 -->
-             <div class="testi-box">
-                   <h3>Zachary <span> Lynch</span></h3>
-                   <p>“Ghost Writers Hub has a dedicated writing team, no doubt. My clients loved the articles. The first impression was great with the team. I am working on a new project of blogs and articles, and I will surely sign up with you people again. 100% recommended for ghostwriting services. ”</p>
-                   <div class="testi-flg-bar">
-                    <img src="images/uk-flag.png" alt="">
-                    <span>UK</span>
-               </div>
-                <div class="testi-star-new">
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                      <i class="fa fa-star" aria-hidden="true"></i>
-                      <i class="fa fa-star" aria-hidden="true"></i>
-               </div>
-            </div>
-            <!-- end -->
-    </div>
-</div>
+
+
+
+
 
 
 <!-- footer -->
