@@ -7760,6 +7760,34 @@ font-family: 'Poppins', sans-serif;
   }
 }
 
+/* Parent banner */
+.inner-banner {
+    position: relative;
+    overflow: hidden;
+}
 
+/* Background image */
+#service-page-hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
 
+/* Dark overlay */
+.inner-banner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
 
+/* Content above overlay */
+.inner-banner .container {
+    position: relative;
+    z-index: 3;
+}
